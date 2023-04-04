@@ -1,8 +1,10 @@
-<div class="cointainer">
+<div class="container">
 
   <h1>Counter App</h1>
-  <button  type="button"  (click)="increment()" class="btn btn-primary m-3">Increment</button>
-  <button type="button" (click)="decrement()" class="btn btn-primary">Decrement</button>
-  {{val}}
+  <h3>Count: {{val}}</h3>
+<br>
+
+  <button  type="button"  (click)="Counter('add')" class="btn btn-primary m-3">Increment</button>
+  <button type="button" (click)="Counter('minus')" class="btn btn-primary">Decrement</button>
 
 </div>

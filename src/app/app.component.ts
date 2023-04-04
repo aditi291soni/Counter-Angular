@@ -9,13 +9,8 @@ export class AppComponent {
   title = 'counter';
   val:number=0
   
-increment(){
-this.val+=1;
+Counter(type:string){
+type==='add'?this.val++:this.val--
 
   }
-  
-decrement(){
-  this.val+=-1;
-  
-    }
-}
+  }
